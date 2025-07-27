@@ -1,0 +1,7 @@
+marks=eval(input('enter the marks of student (in form of list):'))
+n=len(marks)
+l=[]
+for x in range (n):
+    l.append(f'test(x+1)')
+import matplotlib.pyplot as plt
+plt.plot(marks,l)
