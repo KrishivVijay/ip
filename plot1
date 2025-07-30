@@ -5,4 +5,7 @@ for x in range (n):
     l.append(f'test{x+1}')
 import matplotlib.pyplot as plt
 plt.plot(marks,l)
+plt.title('Student Performnance')
+plt.xlabel('Marks')
+plt.ylabel('Test')
 plt.show()
